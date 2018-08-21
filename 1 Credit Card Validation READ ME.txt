@@ -1,0 +1,37 @@
+1 Credit Card Validation READ ME
+
+Credit cards use a system of blocked numbers similar to the ISBN. The first digit of a credit card number is the Major Industry Identifier (MII) and identifies which group issued the card. The next block of numbers is the issue identifier. Including the MII, the Issue Identifier is 6 digits long. The account number begins with the 7th digit and ends with the next-to-last digit. The final digit is the check digit.
+
+To check the validation of a simple credit card, an algorithm needs to be created that is designed to protect against accidental errors,
+
+This algorithm works as follows:
+
+* Double all even-positioned digits when counting from right to left.
+
+* Determine the sum of the undoubled digits from the products (Step 1) and each of the unaffected (odd-positioned) digits in the original number.
+
+* Verify the account number by determining if the sum from step 2 is a multiple of 10.
+
+For example, consider the task of validating the check digit for 5314772685932112. The sum produced by the algorithm is 65:
+
+To be a valid account number, this sum must be evenly divisible by 10. If the check digit were 7 (ie. 5314772685932117 instead of 2), the result would be divide; but because the
+
+check digit is 2, the sum is not divisible by 10. Therefore, this account number is not valid. Note: The MII (first digit) is a 5 so the card is a Master Card Credit Card. A first digit of 4 would indicate a Visa credit card.
+
+Test Data
+
+Type of Card Card Number Result
+
+Master Card 5105105115105100 InValid
+
+Master Card 5111111111111118 Valid
+
+Master Card 5555555555554444 Valid
+
+Visa 4012888888881881 Valid
+
+Visa 4408041234567890 Invalid
+
+Visa 4417123456789112 Invalid
+
+Visa 40128888A8881881 Invalid
