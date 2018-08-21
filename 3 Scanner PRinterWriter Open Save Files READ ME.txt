@@ -1,0 +1,6 @@
+The purpose of this program is to print certain strings of names with the use of object arrays, 
+and their corresponding values of marks and the average. Additionally it gives the class average.
+It has also been modified to display this in a txt file. Additionally, data from a txt file is
+displayed into the Interactions tab.
+
+It uses the 3_info.txt as input.

@@ -1,0 +1,21 @@
+*NOTE* This program is not efficient, however it does find a way through the maze if the maze is not immensely large.
+Additionally, forgive me, but this program could be programmed way better and be under 200 lines,
+but I was new to java and recursion, so I ended up programming like a noob. :D
+
+REQUIRES A map.txt FILE. An example is stored within the repository.
+
+Here are a couple of rules in order for the program to function:
+1. The map.txt file must have the same amount of columns in every existing row. An example map.txt file is located within the repository.
+2. Every index must be a number(0 for barrier and 1 for path). 7s will be the program's pathway. 
+3. Every number can be separated by a comma, a comma with a space, or a space. A new line represents a column
+4. The first number located at the top left corner must be a 1 and is the start location.
+5. The program gets tired and can only take 1000 steps before it goes home and assumes the pathway is blocked.
+
+Example:
+
+1 1 1 0 1 1 1 0 0
+1 0 1 1 1 0 1 0 1
+1 0 1 0 1 1 1 0 1
+1 0 1 0 0 0 0 0 1
+1 0 1 1 1 0 1 1 1
+1 1 1 0 1 1 1 0 1

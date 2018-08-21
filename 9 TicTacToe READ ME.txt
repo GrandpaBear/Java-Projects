@@ -1,0 +1,9 @@
+This program is a simple Two Player TicTacToe program. It uses GUI as well as many other effects,
+including music.
+
+The program would be better with "o.jpg", "x.jpg", and "TicTacToeTheme.wav".
+These can be found within the repository.
+
+This is an unfinished tictactoe program. It only contains a Two Player version.
+It still lacks a One Player version, About section, and an Exit Game button.
+
