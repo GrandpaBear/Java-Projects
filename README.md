@@ -8,4 +8,4 @@
 6. Baseball Database (Basic Sorting Algorithms)
 7. Maze Solver (Recursion)
 8. LargestPalindromeFinder
-9. TicTacToe
+9. TicTacToe (GUI)
