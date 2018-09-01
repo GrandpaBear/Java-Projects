@@ -37,7 +37,6 @@ class PalindromeFinder {
     int pos = input.length();
     
     while(i!=j && i<j) {
-      System.out.println(input.substring(i, j));
       palindromeScanner(input.substring(i, j));
       if (j==input.length() && arr.isEmpty()==true) {
         pos--;
