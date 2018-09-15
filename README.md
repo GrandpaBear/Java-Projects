@@ -3,7 +3,7 @@
 1. Credit Card Validation
 2. Array Objects
 3. Scanner PrintWriter Open Save Files
-4. Cash Register(Polymorphism)
+4. Cash Register (Polymorphism)
 5. Simulated Doubly LinkedList
 6. Baseball Database (Basic Sorting Algorithms)
 7. Maze Solver (Recursion)
